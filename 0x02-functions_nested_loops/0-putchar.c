@@ -1,16 +1,6 @@
-#include <unistd.h>
-void print_alphabet(void)
-{
-char letter = 'a';
-while (letter <= 'z')
-{
-_putchar(letter);
-letter++;
-}
-_putchar('\n');
-}
+#include "main.h"
 int main(void)
 {
-print_alphabet();
+0-putchar('\n');
 return (0);
 }
