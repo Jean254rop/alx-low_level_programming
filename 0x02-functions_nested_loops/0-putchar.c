@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ *The main function of the program.
+ * It prints "_putchar" followed by a new line.
+ */
 int main(void)
 {
 _putchar('_');
