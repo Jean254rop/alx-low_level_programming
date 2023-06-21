@@ -1,16 +1,12 @@
 #include <unistd.h>
-
-int _putchar(char c) {
-    return write(1, &c, 1);
+/**
+*-putchar -writes the character c to stdout 
+@c: The character to print 
+*
+* Return: on success 1.
+* on error, -1 is returned, and errno is set appropriately 
+*/
+int -putchar(char c)
+{
+	return(write(1, &c, 1));
 }
-
-int main() {
-    char message[] = "_putchar\n";
-
-    for (int i = 0; message[i] != '\0'; i++) {
-        _putchar(message[i]);
-    }
-
-    return 0;
-}
-
