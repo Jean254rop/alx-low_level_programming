@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * program for task _isuper
- * 0c: to be checked
+ * @c: to be checked
  * Return: 1 for uppercase 0 for anything
  */
 int _isupper(int c)
