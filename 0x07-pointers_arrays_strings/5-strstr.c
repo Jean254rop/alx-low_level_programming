@@ -13,8 +13,7 @@ while (needle[len] != '\0')
 len++;
 while (*haystack != '\0')
 {
-if
-(_strstr(haystack, needle) == 0)
+if (_strstr(haystack, needle) == 0)
 return (haystack);
 haystack++;
 }
