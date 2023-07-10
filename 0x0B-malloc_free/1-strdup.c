@@ -3,8 +3,6 @@
 #include <stddef.h>
 #include <string.h>
 /**
- * main - function that returns a pointer to a newly allocated space in memory
- * which contains a copy of the string given as a parameter
  * _strdup - copies a string to a new buffer
  * @str: string to be copied
  * Return: pointer
