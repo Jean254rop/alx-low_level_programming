@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <string.h>
+#include <stdlib.h>
+#include "lists.h"
 /**
  * add_node_end - adds a new node at the end of a list
  * @head: head of a list
